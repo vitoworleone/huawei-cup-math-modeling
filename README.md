@@ -73,7 +73,9 @@ bash build.sh main.tex
 
 ## ⭐ Star History
 
-[![Star History](https://api.star-history.com/svg?repos=vitoworleone/huawei-cup-math-modeling-toolkit&type=Date)](https://www.star-history.com/#vitoworleone/huawei-cup-math-modeling-toolkit&Date)
+<p align="center">
+  <a href="https://www.star-history.com/#vitoworleone/huawei-cup-math-modeling-toolkit&Date"><img src="https://api.star-history.com/svg?repos=vitoworleone/huawei-cup-math-modeling-toolkit&amp;type=Date" alt="Star History" width="620"></a>
+</p>
 
 ## 📜 许可
 
