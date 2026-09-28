@@ -1,0 +1,79 @@
+[
+  {
+    "file": "04-04_heatmap.pdf",
+    "preview": "04-04_heatmap.png",
+    "paper_figure": "4-4",
+    "caption": "三机型在各服务区的最大安全载荷",
+    "width_mm_in_final_latex": 160,
+    "kind": "矩阵热图",
+    "figure_set_id": "Q1_02",
+    "source_in_workspace": "draft/D题/figures/figure_17.pdf",
+    "sha256": "cd00675a882f52618eca0a7cd7abeaac6317928ff09c8751efff4401375a5941"
+  },
+  {
+    "file": "04-05_feasibility.pdf",
+    "preview": "04-05_feasibility.png",
+    "paper_figure": "4-5",
+    "caption": "往返能耗、载荷及可行边界",
+    "width_mm_in_final_latex": 160,
+    "kind": "约束曲线与多面板",
+    "figure_set_id": "Q1_03",
+    "source_in_workspace": "draft/D题/figures/figure_18.pdf",
+    "sha256": "b2ce1eec5d2029e92348516a9ecf00ebd63a4474b5e864e7f60786b864fe3152"
+  },
+  {
+    "file": "04-07_step.pdf",
+    "preview": "04-07_step.png",
+    "paper_figure": "4-7",
+    "caption": "返航安全余量变化下的最优组批结果",
+    "width_mm_in_final_latex": 120,
+    "kind": "离散阶梯与不可行域",
+    "figure_set_id": "Q1_06",
+    "source_in_workspace": "draft/D题/figures/figure_20.pdf",
+    "sha256": "64508f013b7e2e1f09d703f86890d93499d34e3aebb87d0ebf5528119f7de97c"
+  },
+  {
+    "file": "05-02_flow.pdf",
+    "preview": "05-02_flow.png",
+    "paper_figure": "5-2",
+    "caption": "运输模式选择与资源排程流程",
+    "width_mm_in_final_latex": 160,
+    "kind": "方法流程框图",
+    "figure_set_id": "Q2_B03",
+    "source_in_workspace": "draft/D题/figures/figure_03.pdf",
+    "sha256": "a5d437ba8f0aca3251793c8dd3ba1e97e6527f5f4ab8d5064ad30709120599c9"
+  },
+  {
+    "file": "05-05_schedule.pdf",
+    "preview": "05-05_schedule.png",
+    "paper_figure": "5-5",
+    "caption": "飞机与共享电池联合调度",
+    "width_mm_in_final_latex": 160,
+    "kind": "资源甘特图",
+    "figure_set_id": "Q2_F03",
+    "source_in_workspace": "draft/D题/figures/figure_06.pdf",
+    "sha256": "65508bb1b442794ac59c57b29e365fa3754702ee049d92958b13f81ec2749790"
+  },
+  {
+    "file": "06-06_terrain_3d.pdf",
+    "preview": "06-06_terrain_3d.png",
+    "paper_figure": "6-6",
+    "caption": "代表运输航迹与中继悬停点三维分布",
+    "width_mm_in_final_latex": 145,
+    "kind": "三维地形与航迹",
+    "figure_set_id": "Q3_B05",
+    "source_in_workspace": "draft/D题/figures/figure_29.pdf",
+    "sha256": "7bb7f41ba56f1910d92ef7da355c9022bb10ed3ddb5e331aca5ab0d57058dc09"
+  },
+  {
+    "file": "07-02_groups.pdf",
+    "preview": "07-02_groups.png",
+    "paper_figure": "7-2",
+    "caption": "两组与三组服务区划分",
+    "width_mm_in_final_latex": 160,
+    "kind": "空间分组对比",
+    "figure_set_id": "Q4_F02",
+    "source_in_workspace": "draft/D题/figures/figure_38.pdf",
+    "sha256": "611e866c1b18a9603af46581659d4f78b2a7c7b461bbbd1debe0f2d0e79cbab1"
+  }
+]

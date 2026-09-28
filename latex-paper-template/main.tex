@@ -1,0 +1,23 @@
+% 空白入口。封面资产、字体和版式来自 draft/D题；不含赛题正文。
+\documentclass[withoutpreface]{gmcmthesis}
+\input{preamble.tex}
+\input{front-matter.tex}
+
+\hypersetup{pdftitle={数学建模论文},pdfauthor={},bookmarksopen=true}
+
+\begin{document}
+\pagenumbering{gobble}
+\includepdf[pages=1,pagecommand={\thispagestyle{empty}}]{assets/blank-cover.pdf}
+\pagenumbering{arabic}
+
+% \begin{paperabstractpage}{论文题目}
+% 在此填写摘要正文。
+% \paperabstractkeywords{关键词一；关键词二}
+% \end{paperabstractpage}
+% \input{technical-roadmap.tex}
+% \clearpage\tableofcontents\clearpage
+% \input{chapters/chapter1.tex}
+% \input{chapters/chapter2.tex}
+% \input{chapters/references.tex}
+% \input{chapters/appendix.tex}
+\end{document}

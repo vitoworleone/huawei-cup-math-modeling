@@ -1,0 +1,13 @@
+% 从 draft/D题 提取的统一表格样式；供所有三线表复用。
+\newcolumntype{Y}[1]{>{\centering\arraybackslash}m{#1}}
+\newcommand{\papertablestyle}{%
+  \normalfont\songti\zihao{-4}%
+  \linespread{1.15}\selectfont%
+  \renewcommand{\arraystretch}{1}%
+  \setlength{\tabcolsep}{5pt}%
+  \setlength{\heavyrulewidth}{1pt}%
+  \setlength{\lightrulewidth}{0.5pt}%
+  \setlength{\aboverulesep}{3pt}%
+  \setlength{\belowrulesep}{3pt}%
+  \captionsetup{font={normalfont,song,minusfour},position=top,skip=4pt}%
+}

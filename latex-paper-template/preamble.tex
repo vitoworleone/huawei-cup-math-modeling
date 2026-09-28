@@ -1,0 +1,33 @@
+% 以 draft/D题/main.tex 为准；这里只抽出与论文内容无关的导言设置。
+\input{table-style.tex}
+\usepackage{fvextra,tcolorbox,pdfpages,eso-pic}
+\tcbuselibrary{breakable}
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+\setCJKfamilyfont{abstractlisu}[Path=fonts/]{LiSu.ttf}
+\geometry{footskip=13.82777pt}
+\setcounter{tocdepth}{3}
+
+\makeatletter
+\def\@oddfoot{\hfill{\normalfont\fontsize{9bp}{11bp}\selectfont\thepage}\hfill}
+\let\@evenfoot\@oddfoot
+\newcommand\papertocline[4]{%
+  \par\begingroup\normalfont\songti\fontsize{12bp}{18.6bp}\selectfont
+  \leftskip=#1\relax\rightskip=12bp\parfillskip=-\rightskip
+  \parindent=0pt\interlinepenalty=10000
+  \@tempdima=#2\relax\advance\leftskip\@tempdima
+  \leavevmode\hskip-\@tempdima{#3}\nobreak\hskip3bp
+  \leaders\hbox to3bp{\hss.\hss}\hfill\nobreak
+  \hb@xt@12bp{\hfil\normalfont\fontsize{12bp}{18.6bp}\selectfont#4}\par
+  \endgroup}
+\renewcommand\l@section[2]{\papertocline{0bp}{30bp}{#1}{#2}}
+\renewcommand\l@subsection[2]{\papertocline{12bp}{21bp}{#1}{#2}}
+\renewcommand\l@subsubsection[2]{\papertocline{24bp}{30bp}{#1}{#2}}
+\renewcommand\tableofcontents{%
+  \begingroup\normalfont\songti\fontsize{12bp}{18.6bp}\selectfont
+  \setlength{\parskip}{0pt}\setlength{\parindent}{0pt}
+  \vspace*{0bp}
+  {\centering\fontsize{16.2bp}{20bp}\selectfont 目录\par}
+  \vspace{2bp}\@starttoc{toc}\endgroup}
+\makeatother
