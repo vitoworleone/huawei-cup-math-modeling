@@ -8,23 +8,12 @@
 
 [![九张正文图件拼贴：三维地形、通信航迹、地形重建、运输网络及资源调度](showcase/figure-gallery.png)](showcase/figure-gallery.png)
 
-<details>
-<summary>📄 打开论文封面与排版 PDF</summary>
+## 👀 模板与路线图
 
-<p align="center"><a href="latex-paper-template/preview/sample.pdf"><img src="showcase/cover-preview.png" alt="LaTeX 模板封面预览" width="380"></a></p>
-
-[查看完整排版样张 PDF](latex-paper-template/preview/sample.pdf) · [查看正文写作模板 PDF](showcase/writing-template-example.pdf) · [打开 LaTeX 模板](latex-paper-template/README.md)
-
-</details>
-
-<details>
-<summary>🧭 展开总体技术路线图</summary>
-
-[![本次论文总体技术路线图](math-modeling-roadmap/examples/roadmap-final.png)](math-modeling-roadmap/examples/roadmap-final.png)
-
-[打开 Excalidraw 画布](math-modeling-roadmap/examples/roadmap-final.excalidraw) · [查看路线图 skill](math-modeling-roadmap/SKILL.md)
-
-</details>
+| 📄 论文封面与排版 | 🧭 总体技术路线图 |
+|:---:|:---:|
+| <a href="latex-paper-template/preview/sample.pdf"><img src="showcase/cover-preview.png" alt="LaTeX 模板封面预览" width="305"></a> | <a href="math-modeling-roadmap/examples/roadmap-final.png"><img src="math-modeling-roadmap/examples/roadmap-final.png" alt="总体技术路线图" width="520"></a> |
+| [完整排版 PDF](latex-paper-template/preview/sample.pdf) · [正文写作模板 PDF](showcase/writing-template-example.pdf) | [Excalidraw 画布](math-modeling-roadmap/examples/roadmap-final.excalidraw) · [路线图 skill](math-modeling-roadmap/SKILL.md) |
 
 ## 🧰 工具与模板
 
