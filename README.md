@@ -6,10 +6,10 @@
 
 本项目不包含完整赛题论文，与赛事主办方无官方关联。
 
-📄 [论文模板](#latex-template)<br>
-📊 [图件制作](#figure-workflow)<br>
-🧭 [技术路线图](#roadmap-workflow)<br>
-✍️ [写作与审阅](#paper-writing)
+📄 [论文模板](#-论文模板从样张到新论文)<br>
+📊 [图件制作](#-科学图件从结果到论文插图)<br>
+🧭 [技术路线图](#-技术路线图从多问关系到可编辑画布)<br>
+✍️ [写作与审阅](#-正文写作从结构讨论到审阅修订)
 
 ## 🎨 正文图件一览
 
@@ -44,7 +44,7 @@ git clone https://github.com/vitoworleone/huawei-cup-math-modeling-toolkit.git
 cd huawei-cup-math-modeling-toolkit
 ```
 
-只使用 LaTeX 模板时，直接进入 `latex-paper-template/`。需要让 Codex 调用三个 skills 时，将各目录**完整**复制到个人 skills 目录，保留其中的 `SKILL.md`、`references/`、`assets/` 和 `examples/`：
+只使用 LaTeX 模板时，直接进入 `latex-paper-template/`。需要让 Codex 调用三个 skills 时，将各目录**完整**复制到个人 skills 目录，保留 `SKILL.md` 和目录内的支持文件：
 
 ```sh
 mkdir -p "$HOME/.codex/skills"
@@ -59,8 +59,6 @@ cp -R math-modeling-figure math-modeling-roadmap math-modeling-paper-writing "$H
 并给出工作顺序。这一步先不要编造数据或直接写结论。
 ```
 
-<a id="latex-template"></a>
-
 ### 📄 论文模板：从样张到新论文
 
 1. 先打开 [排版样张](latex-paper-template/preview/sample.pdf) 和 [排版规范](latex-paper-template/formatting-guide.md)，确认封面、摘要、目录、公式、插图与三线表的效果。
@@ -74,8 +72,6 @@ cp -R math-modeling-figure math-modeling-roadmap math-modeling-paper-writing "$H
 
 3. 以 [`main.tex`](latex-paper-template/main.tex) 为入口，填写摘要并按需启用路线图、目录、章节、参考文献和附录。公式用 `equation` 与 `\label`，插图用 `\paperfigure`，表格使用三线表；各自的完整示例都在 [排版规范](latex-paper-template/formatting-guide.md)。
 4. 换赛或换届时，核对并替换相应的封面与摘要页面素材，最后按真实论文逐页检查字体、图表位置、编号和引用。模板保留完整字体与页面素材，编译需要 XeLaTeX 或兼容的 Tectonic。
-
-<a id="figure-workflow"></a>
 
 ### 📊 科学图件：从结果到论文插图
 
@@ -99,8 +95,6 @@ cp -R math-modeling-figure math-modeling-roadmap math-modeling-paper-writing "$H
    命令会生成 `output/demo.png`、`output/demo.pdf`、`output/demo.svg` 和来源记录 `output/demo.json`。所需 Matplotlib 与字体、非默认字体路径参数见 [绘图目录说明](math-modeling-figure/README.md)。`demo.csv` 是虚构数据，写论文时须换成自己的结果；热图、甘特图和三维图需要重写主体绘制逻辑。
 4. 按论文实际插入尺寸检查图内文字和图例，再按 [AI 审计与迭代流程](math-modeling-figure/references/ai-audit-and-iteration.md)记录问题、局部修改和复核结果。
 
-<a id="roadmap-workflow"></a>
-
 ### 🧭 技术路线图：从多问关系到可编辑画布
 
 1. 准备各问的最终任务、方法、结果图及当前正文。先填 [路线图计划表](math-modeling-roadmap/assets/roadmap-plan-template.md)，特别写清前一问传给后一问的条件、哪些决策被冻结、哪些需要重新求解。
@@ -115,9 +109,7 @@ cp -R math-modeling-figure math-modeling-roadmap math-modeling-paper-writing "$H
 
 3. 用 [第三版成品路线图](math-modeling-roadmap/examples/README.md)参考布局和审阅方法，重新填写自己论文的内容。交付时保存 `.excalidraw` 或其他可编辑源、PNG 预览和必要的纸面检查记录。
 
-<a id="paper-writing"></a>
-
-### ✍️ 正文写作：从结构讨论到审阅修订
+### 📝 正文写作：从结构讨论到审阅修订
 
 1. 提供赛题与附件、已确认的模型和求解结果、当前正文，以及相关图表。说明本轮要**讨论结构、起草、审阅**还是**按审阅意见修订**。材料不齐时先标出缺口。
 2. 将 [写作 skill](math-modeling-paper-writing/SKILL.md) 作为入口，用 `$math-modeling-paper-writing` 指定任务。起草时先明确章节要回答的问题和证据，再形成可审阅的初稿：
