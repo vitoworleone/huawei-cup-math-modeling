@@ -19,4 +19,4 @@
 
 图件绘制可使用单独的 `math-modeling-figure` skill；LaTeX 页面样式可使用 `latex-paper-template`。本目录不包含本次比赛的完整论文、数据、代码或外部参考论文。
 
-此目录目前位于本地 `GitHub` 文件夹，尚未上传远端。对外发布前需由仓库所有者选择并添加许可证。
+原创说明与模板适用仓库的 [MIT License](../LICENSE)；其他素材的范围见 [NOTICE.md](../NOTICE.md)。

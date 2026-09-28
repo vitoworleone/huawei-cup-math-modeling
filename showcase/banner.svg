@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="430" viewBox="0 0 1600 430" role="img" aria-labelledby="title desc">
+  <title id="title">Huawei Cup Math Modeling Toolkit</title>
+  <desc id="desc">An original illustrated banner showing a friendly calculator and a five-step path from problem to review.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f9fbff"/>
+      <stop offset="1" stop-color="#f1f5fa"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-30%" width="120%" height="170%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#23364d" flood-opacity=".10"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="430" fill="#ffffff"/>
+  <rect x="35" y="55" width="1530" height="320" rx="30" fill="url(#panel)" filter="url(#shadow)"/>
+  <path d="M69 347h1462" stroke="#e6ecf3" stroke-width="2"/>
+
+  <!-- Calculator mascot: square shapes keep the drawing crisp at README size. -->
+  <g transform="translate(112 141)">
+    <rect x="19" y="15" width="112" height="130" rx="19" fill="#c8dff4"/>
+    <rect x="12" y="8" width="112" height="130" rx="19" fill="#ffffff" stroke="#24374b" stroke-width="4"/>
+    <rect x="30" y="26" width="76" height="40" rx="7" fill="#def5f2" stroke="#24374b" stroke-width="3"/>
+    <circle cx="52" cy="45" r="4.5" fill="#24374b"/>
+    <circle cx="83" cy="45" r="4.5" fill="#24374b"/>
+    <path d="M59 53q9 9 18 0" fill="none" stroke="#24374b" stroke-width="3" stroke-linecap="round"/>
+    <rect x="31" y="79" width="18" height="16" rx="4" fill="#e7a765"/>
+    <rect x="57" y="79" width="18" height="16" rx="4" fill="#a8c8f2"/>
+    <rect x="83" y="79" width="18" height="16" rx="4" fill="#b6a3e6"/>
+    <rect x="31" y="104" width="18" height="16" rx="4" fill="#b6a3e6"/>
+    <rect x="57" y="104" width="18" height="16" rx="4" fill="#a9dfcf"/>
+    <rect x="83" y="104" width="18" height="16" rx="4" fill="#edb1ad"/>
+    <path d="M12 87-5 74M124 87l17-13M39 138l-6 20M97 138l6 20" stroke="#24374b" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="-6" cy="74" r="5" fill="#e7a765"/>
+    <circle cx="142" cy="74" r="5" fill="#e7a765"/>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif" fill="#263342">
+    <text x="290" y="139" font-size="19" font-weight="700" letter-spacing="4" fill="#64748b">HUAWEI CUP · OPEN TOOLKIT</text>
+    <text x="287" y="204" font-size="58" font-weight="750" letter-spacing="-2">Math Modeling</text>
+    <text x="287" y="264" font-size="58" font-weight="750" letter-spacing="-2">Toolkit</text>
+    <text x="290" y="313" font-size="23" fill="#64748b">From a modeling problem to a readable paper.</text>
+  </g>
+
+  <!-- Five linked stages: question, model, figure, writing, review. -->
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle">
+    <text x="956" y="135" font-size="23" fill="#2d74bf">01</text>
+    <text x="1083" y="135" font-size="23" fill="#07a3a8">02</text>
+    <text x="1210" y="135" font-size="23" fill="#8058c9">03</text>
+    <text x="1337" y="135" font-size="23" fill="#ec7934">04</text>
+    <text x="1464" y="135" font-size="23" fill="#35995a">05</text>
+  </g>
+  <g stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <rect x="916" y="151" width="80" height="92" rx="12" stroke="#2d74bf" fill="#ffffff"/>
+    <path d="M938 173h23l12 12v35h-35zM960 173v13h13M947 197h16M947 205h16" stroke="#2d74bf"/>
+
+    <rect x="1043" y="151" width="80" height="92" rx="12" stroke="#07a3a8" fill="#ffffff"/>
+    <circle cx="1064" cy="195" r="7" stroke="#07a3a8"/>
+    <circle cx="1101" cy="178" r="7" stroke="#07a3a8"/>
+    <circle cx="1094" cy="217" r="7" stroke="#07a3a8"/>
+    <path d="m1071 192 23-11m-25 19 19 14m9-29-2 25" stroke="#07a3a8"/>
+
+    <rect x="1170" y="151" width="80" height="92" rx="12" stroke="#8058c9" fill="#ffffff"/>
+    <path d="M1190 220v-17m13 17v-30m13 30v-12m13 12v-38M1185 220h49" stroke="#8058c9"/>
+    <circle cx="1190" cy="203" r="3" fill="#8058c9" stroke="none"/>
+    <circle cx="1203" cy="190" r="3" fill="#8058c9" stroke="none"/>
+    <circle cx="1216" cy="208" r="3" fill="#8058c9" stroke="none"/>
+    <circle cx="1229" cy="182" r="3" fill="#8058c9" stroke="none"/>
+
+    <rect x="1297" y="151" width="80" height="92" rx="12" stroke="#ec7934" fill="#ffffff"/>
+    <path d="M1318 174h36v46h-36zM1326 187h18M1326 196h18M1326 205h10" stroke="#ec7934"/>
+    <path d="m1340 215 20-23 6 5-20 23-9 3z" fill="#fff8ef" stroke="#ec7934"/>
+
+    <rect x="1424" y="151" width="80" height="92" rx="12" stroke="#35995a" fill="#ffffff"/>
+    <path d="M1464 171c-9 8-17 10-24 10v17c0 15 12 23 24 27 12-4 24-12 24-27v-17c-7 0-15-2-24-10z" stroke="#35995a"/>
+    <path d="m1453 198 8 8 15-17" stroke="#35995a" stroke-width="4"/>
+    <path d="m1004 197 25 0m-7-6 7 6-7 6m109-6 25 0m-7-6 7 6-7 6m109-6 25 0m-7-6 7 6-7 6m109-6 25 0m-7-6 7 6-7 6" stroke="#8b98a8"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" text-anchor="middle" fill="#667486">
+    <text x="956" y="273">PROBLEM</text>
+    <text x="1083" y="273">MODEL</text>
+    <text x="1210" y="273">FIGURE</text>
+    <text x="1337" y="273">WRITE</text>
+    <text x="1464" y="273">REVIEW</text>
+  </g>
+</svg>
