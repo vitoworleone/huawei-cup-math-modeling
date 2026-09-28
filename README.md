@@ -11,8 +11,8 @@
 克隆仓库后，可以直接使用 LaTeX 模板。要在 Codex 中调用绘图、路线图和写作 skills，请将三个目录完整复制到个人 skills 目录：
 
 ```sh
-git clone https://github.com/vitoworleone/huawei-cup-math-modeling-toolkit.git
-cd huawei-cup-math-modeling-toolkit
+git clone https://github.com/vitoworleone/huawei-cup-math-modeling.git
+cd huawei-cup-math-modeling
 mkdir -p "$HOME/.codex/skills"
 cp -R math-modeling-figure math-modeling-roadmap math-modeling-paper-writing "$HOME/.codex/skills/"
 ```
@@ -91,7 +91,7 @@ bash build.sh main.tex
 ## ⭐ Star History
 
 <p align="center">
-  <a href="https://www.star-history.com/#vitoworleone/huawei-cup-math-modeling-toolkit&Date"><img src="https://api.star-history.com/svg?repos=vitoworleone/huawei-cup-math-modeling-toolkit&amp;type=Date" alt="Star History" width="620"></a>
+  <a href="https://www.star-history.com/#vitoworleone/huawei-cup-math-modeling&Date"><img src="https://api.star-history.com/svg?repos=vitoworleone/huawei-cup-math-modeling&amp;type=Date" alt="Star History" width="620"></a>
 </p>
 
 ## 📜 许可
