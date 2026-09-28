@@ -1,4 +1,4 @@
-<img src="showcase/banner.svg" alt="华为杯数学建模：像素风马里奥和赛题、建模、绘图、写作、审阅五个步骤" width="100%">
+<img src="showcase/banner.png" alt="华为杯数学建模：像素小猫与赛题、建模、绘图、写作、审阅五个步骤" width="100%">
 
 # 华为杯数学建模
 
