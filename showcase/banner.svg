@@ -1,84 +1,109 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="430" viewBox="0 0 1600 430" role="img" aria-labelledby="title desc">
-  <title id="title">Huawei Cup Math Modeling Toolkit</title>
-  <desc id="desc">An original illustrated banner showing a friendly calculator and a five-step path from problem to review.</desc>
+  <title id="title">华为杯数学建模</title>
+  <desc id="desc">像素风马里奥站在左侧，右侧依次展示赛题、建模、绘图、写作、审阅五个步骤。</desc>
   <defs>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#f9fbff"/>
-      <stop offset="1" stop-color="#f1f5fa"/>
-    </linearGradient>
     <filter id="shadow" x="-10%" y="-30%" width="120%" height="170%">
-      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#23364d" flood-opacity=".10"/>
+      <feDropShadow dx="0" dy="13" stdDeviation="16" flood-color="#283951" flood-opacity=".11"/>
     </filter>
   </defs>
-  <rect width="1600" height="430" fill="#ffffff"/>
-  <rect x="35" y="55" width="1530" height="320" rx="30" fill="url(#panel)" filter="url(#shadow)"/>
-  <path d="M69 347h1462" stroke="#e6ecf3" stroke-width="2"/>
+  <rect width="1600" height="430" fill="#fff"/>
+  <path d="M70 55h1460v8h16v304h-16v8H70v-8H54V63h16z" fill="#f4f7fb" filter="url(#shadow)"/>
 
-  <!-- Calculator mascot: square shapes keep the drawing crisp at README size. -->
-  <g transform="translate(112 141)">
-    <rect x="19" y="15" width="112" height="130" rx="19" fill="#c8dff4"/>
-    <rect x="12" y="8" width="112" height="130" rx="19" fill="#ffffff" stroke="#24374b" stroke-width="4"/>
-    <rect x="30" y="26" width="76" height="40" rx="7" fill="#def5f2" stroke="#24374b" stroke-width="3"/>
-    <circle cx="52" cy="45" r="4.5" fill="#24374b"/>
-    <circle cx="83" cy="45" r="4.5" fill="#24374b"/>
-    <path d="M59 53q9 9 18 0" fill="none" stroke="#24374b" stroke-width="3" stroke-linecap="round"/>
-    <rect x="31" y="79" width="18" height="16" rx="4" fill="#e7a765"/>
-    <rect x="57" y="79" width="18" height="16" rx="4" fill="#a8c8f2"/>
-    <rect x="83" y="79" width="18" height="16" rx="4" fill="#b6a3e6"/>
-    <rect x="31" y="104" width="18" height="16" rx="4" fill="#b6a3e6"/>
-    <rect x="57" y="104" width="18" height="16" rx="4" fill="#a9dfcf"/>
-    <rect x="83" y="104" width="18" height="16" rx="4" fill="#edb1ad"/>
-    <path d="M12 87-5 74M124 87l17-13M39 138l-6 20M97 138l6 20" stroke="#24374b" stroke-width="5" stroke-linecap="round"/>
-    <circle cx="-6" cy="74" r="5" fill="#e7a765"/>
-    <circle cx="142" cy="74" r="5" fill="#e7a765"/>
+  <!-- Pixel-art Mario drawn from square shapes to match the supplied reference. -->
+  <g transform="translate(77 77) scale(7)" shape-rendering="crispEdges">
+    <path d="M4 6h4v1h3v2H1V8h3zM29 4h4v1h2v2h-9V6h3z" fill="#d7eaf7"/>
+    <path d="M0 39h37v2H0zM4 37h29v2H4z" fill="#d9e9d6"/>
+    <path d="M2 38h3v1H2zM28 38h5v1h-5z" fill="#93c980"/>
+
+    <!-- Cap and M badge. -->
+    <path d="M8 8h2V6h3V4h4V3h12v1h3v2h2v2h2v4H5v-2H3V8z" fill="#27232b"/>
+    <path d="M8 8h3V6h3V5h4V4h10v1h3v2h2v2H8z" fill="#e63d2e"/>
+    <path d="M6 9h29v2H5v-1h1z" fill="#bb2a25"/>
+    <path d="M17 4h10v1h2v4H16V5h1z" fill="#fff9ed"/>
+    <path d="M19 6h1v2h1V7h1v1h1V7h1v1h1V6h1v3h-1v1h-1V8h-1v1h-2V8h-1v2h-1z" fill="#db392c"/>
+    <path d="M3 10h34v3H4v-1H3z" fill="#27232b"/>
+    <path d="M5 11h30v1H5z" fill="#e63d2e"/>
+
+    <!-- Face. -->
+    <path d="M9 13h21v2h3v2h2v4h-2v3h-3v2H10v-2H7v-3H5v-5h2v-2h2z" fill="#27232b"/>
+    <path d="M10 14h19v9h-2v2H11v-2H8v-3H6v-3h2v-2h2z" fill="#f2b47f"/>
+    <path d="M10 14h4v2h-2v2h-2v4H8v-7h2z" fill="#6d3c25"/>
+    <path d="M7 17h3v4H8v-1H7zM11 22h2v2h-2z" fill="#d98962"/>
+    <path d="M16 14h5v1h-5zM23 14h5v1h-5z" fill="#3c2923"/>
+    <path d="M17 15h5v7h-5zM24 15h5v7h-5z" fill="#fffaf3"/>
+    <path d="M19 16h2v5h-2zM25 16h2v5h-2z" fill="#27232b"/>
+    <path d="M28 17h5v1h2v3h-2v1h-7v-1h-1v-2h3z" fill="#27232b"/>
+    <path d="M28 18h5v1h1v2h-1v1h-6v-1h-1v-1h2z" fill="#f6bd8d"/>
+    <path d="M15 21h3v1h3v-1h3v1h3v-1h3v1h2v2h-3v1h-4v1h-6v-1h-4v-1h-2v-2h2z" fill="#36251f"/>
+    <path d="M20 24h7v1h-1v1h-5v-1h-1z" fill="#9c353b"/>
+    <path d="M21 24h5v1h-5z" fill="#f08282"/>
+
+    <!-- Shirt, overalls, gloves and boots. -->
+    <path d="M9 25h21v2h3v2h2v5h-3v2h-4v1H9v-1H5v-2H2v-5h2v-2h5z" fill="#27232b"/>
+    <path d="M9 26h21v1h3v2h1v4h-3v2h-3v1H9v-1H6v-2H3v-4h2v-2h4z" fill="#e23d2e"/>
+    <path d="M15 26h3v5h-3zM25 26h3v5h-3z" fill="#1760b4"/>
+    <path d="M14 30h15v7H10v-3h4z" fill="#1d66be"/>
+    <path d="M12 33h18v1H12z" fill="#2f7ed1"/>
+    <path d="M15 29h3v3h-3zM25 29h3v3h-3z" fill="#27232b"/>
+    <path d="M16 30h2v2h-2zM26 30h2v2h-2z" fill="#f6d34d"/>
+    <path d="M2 31h5v1h2v3H7v1H2v-1H1v-3h1zM31 31h5v1h1v3h-1v1h-5v-1h-2v-3h2z" fill="#27232b"/>
+    <path d="M2 32h5v1h1v2H2zM31 32h5v3h-5z" fill="#fffaf0"/>
+    <path d="M4 33h1v2H4zM33 33h1v2h-1z" fill="#27232b"/>
+    <path d="M11 36h7v3h-2v1H7v-1H6v-2h5zM24 36h7v1h3v2h-1v1H22v-1h2z" fill="#27232b"/>
+    <path d="M11 37h6v2H7v-1h4zM24 37h7v1h2v1H23v-1h1z" fill="#8c532f"/>
+    <path d="M9 37h3v1H9zM27 37h3v1h-3z" fill="#bb7a49"/>
   </g>
 
-  <g font-family="Arial, Helvetica, sans-serif" fill="#263342">
-    <text x="290" y="139" font-size="19" font-weight="700" letter-spacing="4" fill="#64748b">HUAWEI CUP · OPEN TOOLKIT</text>
-    <text x="287" y="204" font-size="58" font-weight="750" letter-spacing="-2">Math Modeling</text>
-    <text x="287" y="264" font-size="58" font-weight="750" letter-spacing="-2">Toolkit</text>
-    <text x="290" y="313" font-size="23" fill="#64748b">From a modeling problem to a readable paper.</text>
-  </g>
+  <text x="355" y="225" fill="#263342" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="65" font-weight="750">华为杯数学建模</text>
+  <path d="M359 256h30v8h-30zM394 256h30v8h-30zM429 256h30v8h-30zM464 256h30v8h-30z" fill="#e64235"/>
 
-  <!-- Five linked stages: question, model, figure, writing, review. -->
-  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle">
+  <!-- Five square pixel cards. -->
+  <g font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-weight="700" text-anchor="middle">
     <text x="956" y="135" font-size="23" fill="#2d74bf">01</text>
     <text x="1083" y="135" font-size="23" fill="#07a3a8">02</text>
     <text x="1210" y="135" font-size="23" fill="#8058c9">03</text>
     <text x="1337" y="135" font-size="23" fill="#ec7934">04</text>
     <text x="1464" y="135" font-size="23" fill="#35995a">05</text>
   </g>
-  <g stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
-    <rect x="916" y="151" width="80" height="92" rx="12" stroke="#2d74bf" fill="#ffffff"/>
-    <path d="M938 173h23l12 12v35h-35zM960 173v13h13M947 197h16M947 205h16" stroke="#2d74bf"/>
+  <g shape-rendering="crispEdges">
+    <path d="M921 158h80v88h-80zM1048 158h80v88h-80zM1175 158h80v88h-80zM1302 158h80v88h-80zM1429 158h80v88h-80z" fill="#dce6f1"/>
+    <rect x="916" y="151" width="80" height="90" fill="#fff" stroke="#2d74bf" stroke-width="4"/>
+    <rect x="1043" y="151" width="80" height="90" fill="#fff" stroke="#07a3a8" stroke-width="4"/>
+    <rect x="1170" y="151" width="80" height="90" fill="#fff" stroke="#8058c9" stroke-width="4"/>
+    <rect x="1297" y="151" width="80" height="90" fill="#fff" stroke="#ec7934" stroke-width="4"/>
+    <rect x="1424" y="151" width="80" height="90" fill="#fff" stroke="#35995a" stroke-width="4"/>
 
-    <rect x="1043" y="151" width="80" height="92" rx="12" stroke="#07a3a8" fill="#ffffff"/>
-    <circle cx="1064" cy="195" r="7" stroke="#07a3a8"/>
-    <circle cx="1101" cy="178" r="7" stroke="#07a3a8"/>
-    <circle cx="1094" cy="217" r="7" stroke="#07a3a8"/>
-    <path d="m1071 192 23-11m-25 19 19 14m9-29-2 25" stroke="#07a3a8"/>
+    <path d="M938 172h26v6h6v43h-32z" fill="#2d74bf"/>
+    <path d="M942 176h18v6h6v35h-24z" fill="#fff"/>
+    <path d="M947 190h15v4h-15zM947 200h15v4h-15zM947 210h11v4h-11z" fill="#2d74bf"/>
 
-    <rect x="1170" y="151" width="80" height="92" rx="12" stroke="#8058c9" fill="#ffffff"/>
-    <path d="M1190 220v-17m13 17v-30m13 30v-12m13 12v-38M1185 220h49" stroke="#8058c9"/>
-    <circle cx="1190" cy="203" r="3" fill="#8058c9" stroke="none"/>
-    <circle cx="1203" cy="190" r="3" fill="#8058c9" stroke="none"/>
-    <circle cx="1216" cy="208" r="3" fill="#8058c9" stroke="none"/>
-    <circle cx="1229" cy="182" r="3" fill="#8058c9" stroke="none"/>
+    <path d="M1064 187h26v5h-26zM1068 195h5v17h-5zM1077 201h22v5h-22z" fill="#07a3a8"/>
+    <rect x="1056" y="183" width="15" height="15" fill="#07a3a8"/>
+    <rect x="1059" y="186" width="9" height="9" fill="#fff"/>
+    <rect x="1093" y="174" width="15" height="15" fill="#07a3a8"/>
+    <rect x="1096" y="177" width="9" height="9" fill="#fff"/>
+    <rect x="1088" y="207" width="15" height="15" fill="#07a3a8"/>
+    <rect x="1091" y="210" width="9" height="9" fill="#fff"/>
 
-    <rect x="1297" y="151" width="80" height="92" rx="12" stroke="#ec7934" fill="#ffffff"/>
-    <path d="M1318 174h36v46h-36zM1326 187h18M1326 196h18M1326 205h10" stroke="#ec7934"/>
-    <path d="m1340 215 20-23 6 5-20 23-9 3z" fill="#fff8ef" stroke="#ec7934"/>
+    <path d="M1187 219h48v4h-48zM1192 201h8v18h-8zM1206 189h8v30h-8zM1220 196h8v23h-8z" fill="#8058c9"/>
+    <path d="M1192 196h8v4h-8zM1206 184h8v4h-8zM1220 191h8v4h-8z" fill="#b39ae5"/>
 
-    <rect x="1424" y="151" width="80" height="92" rx="12" stroke="#35995a" fill="#ffffff"/>
-    <path d="M1464 171c-9 8-17 10-24 10v17c0 15 12 23 24 27 12-4 24-12 24-27v-17c-7 0-15-2-24-10z" stroke="#35995a"/>
-    <path d="m1453 198 8 8 15-17" stroke="#35995a" stroke-width="4"/>
-    <path d="m1004 197 25 0m-7-6 7 6-7 6m109-6 25 0m-7-6 7 6-7 6m109-6 25 0m-7-6 7 6-7 6m109-6 25 0m-7-6 7 6-7 6" stroke="#8b98a8"/>
+    <path d="M1317 172h35v44h-35z" fill="#ec7934"/>
+    <path d="M1321 176h27v36h-27z" fill="#fff"/>
+    <path d="M1326 185h17v4h-17zM1326 194h17v4h-17zM1326 203h10v4h-10z" fill="#ec7934"/>
+    <path d="M1340 215h5v-5h5v-5h5v-5h5v-5h5v5h-5v5h-5v5h-5v5h-5v5h-5z" fill="#ec7934"/>
+
+    <path d="M1458 171h12v5h11v5h7v22h-5v9h-6v6h-7v5h-12v-5h-7v-6h-6v-9h-5v-22h7v-5h11z" fill="#35995a"/>
+    <path d="M1458 176h12v5h11v5h3v17h-5v9h-6v5h-18v-5h-6v-9h-5v-17h3v-5h11z" fill="#fff"/>
+    <path d="M1451 198h5v5h5v5h5v-5h5v-5h5v-5h5v5h-5v5h-5v5h-5v5h-10v-5h-5z" fill="#35995a"/>
+
+    <path d="M1004 194h17v-6l11 10-11 10v-6h-17zM1131 194h17v-6l11 10-11 10v-6h-17zM1258 194h17v-6l11 10-11 10v-6h-17zM1385 194h17v-6l11 10-11 10v-6h-17z" fill="#95a3b5"/>
   </g>
-  <g font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" text-anchor="middle" fill="#667486">
-    <text x="956" y="273">PROBLEM</text>
-    <text x="1083" y="273">MODEL</text>
-    <text x="1210" y="273">FIGURE</text>
-    <text x="1337" y="273">WRITE</text>
-    <text x="1464" y="273">REVIEW</text>
+  <g font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="700" text-anchor="middle" fill="#596a7d">
+    <text x="956" y="278">赛题</text>
+    <text x="1083" y="278">建模</text>
+    <text x="1210" y="278">绘图</text>
+    <text x="1337" y="278">写作</text>
+    <text x="1464" y="278">审阅</text>
   </g>
 </svg>

@@ -1,6 +1,6 @@
-<img src="showcase/banner.svg" alt="Huawei Cup Math Modeling Toolkit：从赛题、建模、绘图、写作到审阅的五步横幅" width="100%">
+<img src="showcase/banner.svg" alt="华为杯数学建模：像素风马里奥和赛题、建模、绘图、写作、审阅五个步骤" width="100%">
 
-# Huawei Cup Math Modeling Toolkit
+# 华为杯数学建模
 
 > 从一次华为杯数学建模论文的制作过程，整理出可复用的 LaTeX 模板、科学图件示例与 Codex skills。
 
