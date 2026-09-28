@@ -4,7 +4,12 @@
 
 > 从一次华为杯数学建模论文的制作过程，整理出可复用的 LaTeX 模板、科学图件示例与 Codex skills。
 
-[论文模板](latex-paper-template/README.md) · [图件制作](math-modeling-figure/README.md) · [技术路线图](math-modeling-roadmap/README.md) · [写作与审阅](math-modeling-paper-writing/README.md)
+本项目不包含完整赛题论文，与赛事主办方无官方关联。
+
+📄 [论文模板](latex-paper-template/README.md)<br>
+📊 [图件制作](math-modeling-figure/README.md)<br>
+🧭 [技术路线图](math-modeling-roadmap/README.md)<br>
+✍️ [写作与审阅](math-modeling-paper-writing/README.md)
 
 ## 🎨 正文图件一览
 
@@ -15,7 +20,11 @@
 | 📄 论文封面与排版 | 🧭 总体技术路线图 |
 |:---:|:---:|
 | <a href="latex-paper-template/preview/sample.pdf"><img src="showcase/cover-preview.png" alt="LaTeX 模板封面预览" width="305"></a> | <a href="math-modeling-roadmap/examples/roadmap-final.png"><img src="math-modeling-roadmap/examples/roadmap-final.png" alt="总体技术路线图" width="520"></a> |
-| [完整排版 PDF](latex-paper-template/preview/sample.pdf) · [正文写作模板 PDF](showcase/writing-template-example.pdf) | [Excalidraw 画布](math-modeling-roadmap/examples/roadmap-final.excalidraw) · [路线图 skill](math-modeling-roadmap/SKILL.md) |
+
+📄 [完整排版 PDF](latex-paper-template/preview/sample.pdf)<br>
+📝 [正文写作模板 PDF](showcase/writing-template-example.pdf)<br>
+🎨 [Excalidraw 画布](math-modeling-roadmap/examples/roadmap-final.excalidraw)<br>
+🧭 [路线图 skill](math-modeling-roadmap/SKILL.md)
 
 ## 🧰 工具与模板
 
@@ -62,8 +71,10 @@ bash build.sh main.tex
 
 其他 Codex skill 也可分别复制或链接到 `~/.codex/skills/`；每个 skill 的 `SKILL.md` 是入口，`references/` 保存规则依据，`assets/` 提供可复用空白材料，`examples/` 展示实例。按任务选用，并以当前论文的题目、数据与最终结果为准。
 
-## 📌 许可
+## ⭐ Star History
 
-原创代码和文档使用 [MIT License](LICENSE)。成品论文示例图件、字体、赛事页面素材和继承类文件不在该授权范围内；详见 [NOTICE.md](NOTICE.md)。
+[![Star History](https://api.star-history.com/svg?repos=vitoworleone/huawei-cup-math-modeling-toolkit&type=Date)](https://www.star-history.com/#vitoworleone/huawei-cup-math-modeling-toolkit&Date)
 
-本项目不包含完整赛题论文，与赛事主办方无官方关联。
+## 📜 许可
+
+原创代码和文档采用 [MIT License](LICENSE)；其他素材的使用范围见 [NOTICE.md](NOTICE.md)。
