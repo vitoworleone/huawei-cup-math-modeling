@@ -1,10 +1,10 @@
-# 数学建模论文绘图模板与 Codex 技能
+# 数学建模论文绘图模板与 agent 技能
 
 这套文件从本次 D 题已确认的绘图规范、四题定稿图集与成品 LaTeX 中提取可复用部分：先确定图的论证作用与数据来源，再选择图型，按论文最终插入宽度设置字体和间距，导出后分别检查数据、PDF/SVG、视觉效果。`examples/` 收录七张成品论文实际引用的图，作为排版与选图实例；模板数据仍为虚构数值。没有收录完整论文图集或商业参考资料。
 
 | 文件 | 用途 |
 |---|---|
-| `SKILL.md` | Codex 使用的绘图工作方式与边界 |
+| `SKILL.md` | agent 使用的绘图工作方式与边界 |
 | `references/figure-style-guide.md` | 这次确认的二维 v1.5、三维 v1.6 规则及适用边界 |
 | `references/source-priority.md` | 全工作区相关规范的盘点、现行顺序和章节例外 |
 | `references/ai-audit-and-iteration.md` | 根据实际绘图 trace 提炼的逐图审计、局部修改与闭环流程 |
@@ -31,7 +31,7 @@ python assets/plot_template.py assets/demo.csv \
 
 ## 使用技能
 
-本目录同时是一个 Codex skill，`SKILL.md` 可作为入口。当前工作区可通过 Codex skills 目录中的链接调用；复制到其他环境时，将整个目录放进该环境的 Codex skills 目录即可。技能会按需读取 `references/` 和 `assets/`。
+本目录同时是一个供 agent 使用的 skill，`SKILL.md` 可作为入口。将整个目录放进所用 agent 的 skills 目录即可调用，具体位置以该 agent 的配置为准。技能会按需读取 `references/` 和 `assets/`。
 
 ## 来源与发布状态
 

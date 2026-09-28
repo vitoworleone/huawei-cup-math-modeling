@@ -8,16 +8,16 @@
 
 ## 🚀 从这里开始
 
-克隆仓库后，可以直接使用 LaTeX 模板。要在 Codex 中调用绘图、路线图和写作 skills，请将三个目录完整复制到个人 skills 目录：
+克隆仓库后，可以直接使用 LaTeX 模板。要让支持 `SKILL.md` 的 agent 调用绘图、路线图和写作 skills，请将三个目录完整复制到该 agent 的 skills 目录。下面以 `$HOME/.agents/skills` 为例；如果所用 agent 指定了其他路径，请替换目标目录：
 
 ```sh
 git clone https://github.com/vitoworleone/huawei-cup-math-modeling.git
 cd huawei-cup-math-modeling
-mkdir -p "$HOME/.codex/skills"
-cp -R math-modeling-figure math-modeling-roadmap math-modeling-paper-writing "$HOME/.codex/skills/"
+mkdir -p "$HOME/.agents/skills"
+cp -R math-modeling-figure math-modeling-roadmap math-modeling-paper-writing "$HOME/.agents/skills/"
 ```
 
-首次使用时，先提供赛题、已有模型、计算结果和论文草稿，让 Codex 盘点材料与缺口，再进入下面对应的环节。
+首次使用时，先提供赛题、已有模型、计算结果和论文草稿，让 agent 盘点材料与缺口，再进入下面对应的环节。
 
 ## 📄 论文模板
 
@@ -37,7 +37,7 @@ bash build.sh main.tex
 
 适合已有数据或模型结果，需要决定画什么、如何画，以及图件放进论文后是否清楚。先确定每张图的论证作用、数据来源、变量单位和插入宽度，再选图型和绘制。
 
-在 Codex 中可以这样开始：
+在 agent 中可以这样开始：
 
 ```text
 使用 $math-modeling-figure。依据我提供的结果文件和论文第 4 章，
