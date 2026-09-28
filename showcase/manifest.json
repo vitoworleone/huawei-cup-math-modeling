@@ -1,0 +1,65 @@
+[
+  {
+    "file": "figures/01-terrain-flight-3d.png",
+    "paper_figure": "4-2",
+    "caption": "山区航线三维地形",
+    "source": "论文撰写/正文/整合版/正文/第四章_问题一模型的建立与求解/图片/PNG/原图05_代表航线三维位置.png",
+    "sha256": "8559a6645d7ceb6863238cf33e7c3ae5587323d35f6ecdeddff1e001bb1f3611"
+  },
+  {
+    "file": "figures/02-relay-terrain-3d.png",
+    "paper_figure": "6-6",
+    "caption": "三维航迹与中继位置",
+    "source": "论文撰写/正文/整合版/正文/第六章_问题三模型的建立与求解/图片/PNG/Q3_B05.png",
+    "sha256": "696c6502806b5728f1da19a2ef4fd76d68e94da0c361df3302fc95e783d9762d"
+  },
+  {
+    "file": "figures/03-link-coverage-3d.png",
+    "paper_figure": "6-4",
+    "caption": "双向链路与视线扫掠",
+    "source": "论文撰写/正文/整合版/正文/第六章_问题三模型的建立与求解/图片/PNG/Q3_B01.png",
+    "sha256": "0ac9cc0b9f0f6c551c9f9d8539ebb6d81ad2d3605950330d98e5c127392e5905"
+  },
+  {
+    "file": "figures/04-terrain-reconstruction.png",
+    "paper_figure": "4-9",
+    "caption": "地形重建与误差",
+    "source": "论文撰写/正文/整合版/正文/第四章_问题一模型的建立与求解/图片/PNG/原图03_人工缺失与重建验证.png",
+    "sha256": "108e27745f12a29c0e034119dd5bcf2e38d27bc0d898502f1b24c9663ef7f777"
+  },
+  {
+    "file": "figures/05-multistop-network.png",
+    "paper_figure": "5-3",
+    "caption": "多点运输网络",
+    "source": "论文撰写/正文/整合版/正文/第五章_问题二模型的建立与求解/图片/PNG/Q2_F01.png",
+    "sha256": "5c431ca5d031f1b32725644c8cb719a8c173816014c69b090135278c49b4fd77"
+  },
+  {
+    "file": "figures/06-round-trip-and-batching.png",
+    "paper_figure": "4-1",
+    "caption": "往返与整箱组批",
+    "source": "论文撰写/正文/整合版/正文/第四章_问题一模型的建立与求解/图片/PNG/原图01_山区往返与整箱组批.png",
+    "sha256": "9f5a3d51a5b012702820e28bb474cc23358458469880b97a12d22317430cd35d"
+  },
+  {
+    "file": "figures/07-aircraft-battery-schedule.png",
+    "paper_figure": "5-5",
+    "caption": "飞机与电池联合调度",
+    "source": "论文撰写/正文/整合版/正文/第五章_问题二模型的建立与求解/图片/PNG/Q2_F03.png",
+    "sha256": "36bbfec66d6f3b4531dc4c74abac812c98607257dc331abe8a0118324a48000a"
+  },
+  {
+    "file": "figures/08-relay-resource-schedule.png",
+    "paper_figure": "6-7",
+    "caption": "运输、中继与能源调度",
+    "source": "论文撰写/正文/整合版/正文/第六章_问题三模型的建立与求解/图片/PNG/Q3_F02.png",
+    "sha256": "40f2bdd6f89ef6b822fae999a2c8fa5daea52f8ad68cc34ecea743b6cb10c038"
+  },
+  {
+    "file": "figures/09-resource-gap-heatmap.png",
+    "paper_figure": "7-3",
+    "caption": "资源需求与库存缺口",
+    "source": "论文撰写/正文/整合版/正文/第七章_问题四模型的建立与求解/图片/PNG/Q4_F03.png",
+    "sha256": "1af6b8b2887558b213bd923ddf54323f892bab76e1e230494838c1eede08ba76"
+  }
+]
