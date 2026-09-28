@@ -35,4 +35,4 @@ python assets/plot_template.py assets/demo.csv \
 
 ## 来源与发布状态
 
-规则来源于本工作区的三份主规范、章节专项修订，以及问题一至四 `定稿图集` 的计划、图注、代码、核验和交接记录，详见[盘点](references/source-priority.md)。AI 审计流程另从实际绘图过程的 `PLAN`、`REVIEW`、`HANDOFF`、逐图问题和三格式核验 trace 提炼。七张实图来自 `draft/D题/figures`，按该工程最终 LaTeX 正文引用核对，哈希记录在 `examples/manifest.json`。其余本题特定的图和计算数据仍在原工程。这个目录目前只在本地 `GitHub` 文件夹中，尚未上传远端。
+规则来源于本工作区的三份主规范、章节专项修订，以及问题一至四 `定稿图集` 的计划、图注、代码、核验和交接记录，详见[盘点](references/source-priority.md)。AI 审计流程另从实际绘图过程的 `PLAN`、`REVIEW`、`HANDOFF`、逐图问题和三格式核验 trace 提炼。七张实图来自 `draft/D题/figures`，按该工程最终 LaTeX 正文引用核对，哈希记录在 `examples/manifest.json`。其余本题特定的图和计算数据仍在原工程。
